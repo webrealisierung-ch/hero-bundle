@@ -1,0 +1,16 @@
+<div class="<?= $this->class ?>">
+  <div class="hero-image layer">
+    <div class="content" <?php if(!empty($this->arrData['singleSRC'])): ?> style="background-image: url('<?= $this->arrData['singleSRC'] ?>')" <?php endif; ?> >
+      <?php if($this->text): ?>
+      <div class="shadow">
+          <div class="hero-text">
+            <?php if($this->headline): ?>
+              <<?= $this->hl; ?>><?= $this->headline; ?></<?= $this->hl?>>
+            <?php endif; ?>
+            <?= $this->text; ?>
+          <?php endif; ?>
+          </div>
+        </div>
+    </div>
+  </div>
+</div>
