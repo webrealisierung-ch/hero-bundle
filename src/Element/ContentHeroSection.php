@@ -48,5 +48,6 @@ class ContentHeroSection extends  \ContentElement
                 $this->addImageToTemplate($this->Template, $this->arrData, null, null, $objModel);
             }
         }
+        $GLOBALS['TL_BODY'][] = '<script src="bundles/wrhero/hero.min.js"></script>';
     }
 }
