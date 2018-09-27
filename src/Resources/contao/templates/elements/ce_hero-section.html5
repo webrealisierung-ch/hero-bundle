@@ -13,4 +13,9 @@
         </div>
     </div>
   </div>
+  <script>
+      window.onload=function (ev) {
+          var hero = new Hero();
+      }
+  </script>
 </div>
